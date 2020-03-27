@@ -38,4 +38,4 @@ Class Obj{
             vScr[i] = new Point2D(-d * x/z, -d * y/z);
         }
     }
-}
+}//
