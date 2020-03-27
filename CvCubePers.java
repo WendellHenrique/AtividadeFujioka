@@ -9,8 +9,8 @@ class CvCubePers extends Canvas {
     { Point2D p = obj.vScr[i], q = obj.vScr[j];
     g.drawLine(iX(p.x), iY(p.y), iX(q.x), iY(q.y)); }
 
-    public void paint(Graphics g)
-    { Dimension dim = getSize();
+    public void paint(Graphics g) //Funcao que mostra a transformacao em perspectiva
+    { Dimension dim = getSize(); //Ate a linha 22
 
     int maxX = dim.width - 1, maxY = dim.height - 1,
         minMaxXY = Math.min(maxX, maxY);
